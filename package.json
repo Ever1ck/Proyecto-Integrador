@@ -1,0 +1,22 @@
+{
+  "name": "Anvorgesa-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "ffmpeg-static": "^4.2.6",
+    "fs": "0.0.1-security",
+    "megadb": "^3.4.0",
+    "opusscript": "0.0.7",
+    "quick.db": "^7.1.1",
+    "youtube-search": "^1.1.4",
+    "ytdl-core": "^3.2.0"
+  }
+}
