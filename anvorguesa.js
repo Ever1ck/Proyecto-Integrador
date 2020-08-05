@@ -85,7 +85,7 @@ client.on('message', async message => {
             }
             var opts = {
                 maxResults: 1, //Maximo de resultados a encontrar
-                key: 'AIzaSyCMb7MDziThEKMK_xAd6V8Ob6x72-jKEtE', //Necesitas una CLAVE de la API de youtube. 
+                key: 'youtube-api-key', //Necesitas una CLAVE de la API de youtube. 
                 type: "video" // Que tipo de resultado a obtener.
               };
             
@@ -100,7 +100,6 @@ client.on('message', async message => {
               };
               if (!serverQueue) {
                 const queueObject = {
-                    textChannel: message.channel,
                     textChannel: message.channel, //guardamos el canal de texto
                     voiceChannel: voiceChannel, // guardamos el canal de voz
                     connection: null, // un objeto para la conexión 
